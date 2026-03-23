@@ -1,0 +1,26 @@
+{
+   "name": "kado/kado.io",
+   "type": "library",
+   "description": "My IO helping library.",
+   "license": "MIT",
+   "config": {
+      "secure-http": false
+   },
+   "authors": [
+      {
+         "name": "Sweet Andi"
+      }
+   ],
+   "require": {
+      "php": ">=8.3",
+      "kado/kado.core": "~1.0"
+   },
+   "autoload": {
+      "files": [
+         "src/required-code.php"
+      ],
+      "psr-4": {
+         "Kado\\IO\\": "src/"
+      }
+   }
+}
